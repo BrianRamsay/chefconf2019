@@ -1,0 +1,13 @@
+name: webnode_profile
+title: InSpec Profile
+maintainer: The Authors
+copyright: The Authors
+copyright_email: you@example.com
+license: Apache-2.0
+summary: An InSpec Compliance Profile
+version: 0.2.0
+supports:
+  platform: os
+depends:
+  - name: nginx-baseline
+    supermarket: dev-sec/nginx-baseline

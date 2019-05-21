@@ -1,0 +1,10 @@
+nginx_version: 1.10.3
+mandatory_modules:
+  - http_ssl
+  - stream_ssl
+  - mail_ssl
+auth_modules:
+  - http_auth_request
+  - nginx-auth-ldap
+debian_modules:
+  - nginx-http-sysguard
