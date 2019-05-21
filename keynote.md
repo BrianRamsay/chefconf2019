@@ -25,20 +25,20 @@ Focus on customer value and velocity. Everything else will follow.
 
 Gaps between silos need to be eliminated.
 
-Duties - we do different jobs
-Knowledge - we speak different languages
-Process - we do things differently
-Empathy - we don't care about what you do
+  * Duties - we do different jobs
+  * Knowledge - we speak different languages
+  * Process - we do things differently
+  * Empathy - we don't care about what you do
 
 
 ### Barry Crist
 
 Getting there from Infrastructure and Operations
 
-  # Be marvelous at continuously shipping infra code
-  # Expand this marvelousness to the infra apps that you manage
-  # Then the same for legacy applications
-  # Move towards one path for all apps
+  1 Be marvelous at continuously shipping infra code
+  2 Expand this marvelousness to the infra apps that you manage
+  3 Then the same for legacy applications
+  4 Move towards one path for all apps
 
 Legacy applications aren't scary
 
@@ -62,13 +62,14 @@ Conversations are easier around concrete implementations.
 
 **Application Layer Cake**
 
-Application
-Middleware
-Packages
-System Libraries
-Operating System
+  - Application
+  - Middleware
+  - Packages
+  - System Libraries
+  - Operating System
 
 Originally, Chef cookbooks covered all of these - infrastructure centric.
+
 Now, Habitat covers everything except the OS - application centric.
 Inspec covers the whole stack.
 
