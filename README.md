@@ -10,4 +10,4 @@ Notes from ChefConf 2019
 ## Tuesday
 
   * [Keynote](keynote.md)
-  * 
+  * [Zero to Pipeline](zero-to-pipeline.md) 
