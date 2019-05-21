@@ -28,10 +28,10 @@ Gaps between silos need to be eliminated.
 
 Getting there from Infrastructure and Operations
 
-  1 Be marvelous at continuously shipping infra code
-  2 Expand this marvelousness to the infra apps that you manage
-  3 Then the same for legacy applications
-  4 Move towards one path for all apps
+  1. Be marvelous at continuously shipping infra code
+  2. Expand this marvelousness to the infra apps that you manage
+  3. Then the same for legacy applications
+  4. Move towards one path for all apps
 
 Legacy applications aren't scary
 
