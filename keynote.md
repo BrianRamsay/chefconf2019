@@ -5,19 +5,12 @@ The Coded Enterprise
 
 Focus on customer value and velocity. Everything else will follow.
 
-
   - Automate everything uniformly
-
   - Code is the language of collaboration
-
   - Every change is tested
-
   - Security and velocity reinforce each other
-
   - Application choices, then infrastructure choices
-
   - Narrow the paths to production
-
   - Continuously create customer value at velocity
 
 
