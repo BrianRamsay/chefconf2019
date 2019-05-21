@@ -1,6 +1,3 @@
-Questions: how to specify particular controls in an external profile
-
-
 Chef InSpec Jumpstart
 ======================
 

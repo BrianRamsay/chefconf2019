@@ -11,3 +11,8 @@ Notes from ChefConf 2019
 
   * [Keynote](keynote.md)
   * [Zero to Pipeline](zero-to-pipeline.md) 
+  * [Chef + You: Delivering High Quality Cookbooks](high-quality-cookbooks.md)
+
+## Wednesday
+
+  * 
