@@ -1,21 +1,21 @@
 Zero to Pipeline - Chef-Github-Jenkins
 -----------------------------------------
 
-**Elon Bar-Evans - TechnoTrainer**
+**Elon Bar-Evans** *TechnoTrainer*
 
 Based on https://training.chef.io - DevOps Pipeline (2 day course)
+
 https://github.com/technotrainertm1/apache
 
+#### Pipeline
 Git -> Chef -> Jenkins Testing -> Jenkins Deployment -> Continuous and Automated
 
-Policy Files for production, not roles
-
-Chef
+#### Chef
   - Cookbooks require tests for Test Kitchen
   - requires .kitchen.yml for Test Kitchen
   - To avoid licensing, use product\_name 'chef' and product\_version 14
 
-Jenkins
+#### Jenkins
   - Can create a pipeline with declarative script
   - Better to use docker rather than run straight on the agent
   - Install chef-dk
@@ -25,5 +25,10 @@ Jenkins
   - Converge dependent nodes to deploy the cookbook
 
 
+#### Misc
 Jenkins can move code through git, depending on pipeline results
+
 Git branch for each environment, re-use pipeline with different triggers
+
+Prefer Policy Files for production, not roles.
+
