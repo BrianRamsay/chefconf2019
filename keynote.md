@@ -1,7 +1,7 @@
 The Coded Enterprise
 ======================
 
-### Barry Crist
+### Barry Crist - Chef CEO
 
 Focus on customer value and velocity. Everything else will follow.
 
@@ -14,7 +14,7 @@ Focus on customer value and velocity. Everything else will follow.
   - Continuously create customer value at velocity
 
 
-### Britney - CARFAX
+### Brittany Woods - CARFAX
 
 Gaps between silos need to be eliminated.
 
@@ -24,22 +24,22 @@ Gaps between silos need to be eliminated.
   * Empathy - we don't care about what you do
 
 
-### Barry Crist
+### Barry Crist - Chef CEO
 
-Getting there from Infrastructure and Operations
+#### Getting there from Infrastructure and Operations
 
   1. Be marvelous at continuously shipping infra code
   2. Expand this marvelousness to the infra apps that you manage
   3. Then the same for legacy applications
   4. Move towards one path for all apps
 
-Legacy applications aren't scary
+#### Legacy applications aren't scary
 
   - It is almost always a dependency problem
   - Automation circa 2019 can help with the "modernize and migrate" problem
   - Modern management can encapsulate the application and let you move to a modern platform
 
-The triangle of influence
+#### The triangle of influence
 
   - Make sure the CIO/CTO knows about your successes
   - Involve architecture teams
@@ -53,7 +53,7 @@ Code is the path to trust and velocity.
 
 Conversations are easier around concrete implementations.
 
-**Application Layer Cake**
+#### Application Layer Cake
 
   - Application
   - Middleware
