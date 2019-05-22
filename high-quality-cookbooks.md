@@ -31,25 +31,25 @@ Trust each other, but verify and validate with tests.
 
 ### Test Process and Tools
 
-#### Test phase
+#### Test Phases
 
-  * Linting
+  1. Linting
     - Foodcritic
 	- Rubocop / Cookstyle
 	- Shellcheck (for shell scripts)
 	- ruby -c
-  * Unit testing (in memory)
+  2. Unit testing (in memory)
     - Chefspec
-  * Cookbooks dependency resolver
+  3. Cookbooks dependency resolver
     - Berkshelf + Private Supermarket (Chef Server should only be production-ready)
-  * Cookbook convergence test
+  4. Cookbook convergence test
     - Test Kitchen (chef-zero) + Container/Cloud tool
-  * Integration testing
+  5. Integration testing
     - Chef InSpec
-  * Compliance testing
+  6. Compliance testing
     - Chef InSpec
 
-#### Test Strategy
+#### Test Strategies
 
   * Verify idempotency (Chef should maintain state)
     - Upgrade
@@ -74,7 +74,7 @@ Trust each other, but verify and validate with tests.
 
 Always plan and assess risks before deploying changes.
 
-#### Traditional
+*Traditional*
 100% deployment to applicable chef nodes
 
 **Drawbacks:**
@@ -84,7 +84,7 @@ Always plan and assess risks before deploying changes.
   * Very little to no bake-in time to verify work
   * Incure more expensive rollback procedures (time and effort)
 
-#### Improved
+*Improved*
 
 **Possible Options:**
   * Canary
