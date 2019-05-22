@@ -51,4 +51,4 @@ You should not be putting anything into master that has not been fully tested. A
 
 e.g. Circle CI, Jenkins, Travis CI
 
-Examples: https://github.com/chef-cookbooks/testing\_examples
+Examples: https://github.com/chef-cookbooks/testing_examples
