@@ -1,29 +1,29 @@
 Chef InSpec Jumpstart
 ======================
 
-**Presenters**
-Larry Eichenbaum
-Alan Thatcher
+#### Presenters
+  - Larry Eichenbaum
+  - Alan Thatcher
 
 Introduction to Automated Testing
 -------------------------------------
 
 ### Types of Testing - Different Tools
 
-  - Code Correctness
+  * Code Correctness
     - Foodcritic
-		- Cookstyle (Rubocop - old)
+	- Cookstyle (Rubocop - old)
 
-  - Unit Testing
+  * Unit Testing
     - ChefSpec
 
-  - Integration Test
-		- Test Kitchen
-		- Chef InSpec
+  * Integration Test
+	- Test Kitchen
+	- Chef InSpec
 
-  - Compliance Scanning
-	  - Chef Automate
-		- Chef InSpec
+  * Compliance Scanning
+	- Chef Automate
+	- Chef InSpec
 
 ### Chef InSpec
 
@@ -32,21 +32,21 @@ Introduction to Automated Testing
   - Complex implementation code is abstracted out.
   - Many Chef InSpec profiles exist in the community, and Chef provides profiles matching specific compliance regulations.
   - No agent or Ruby required on target node.
-	- Tests servers' actual state by executing the appropriate command locally via SSH, via WinRM, via Docker API and so on.
+  - Tests servers' actual state by executing the appropriate command locally via SSH, via WinRM, via Docker API and so on.
   - Cross-platform
 
-#### Integration and Compliance tests are separate use cases
+### Integration and Compliance tests are separate use cases
 
-**Integration**
-	- Usually maintained within a cookbook
-	- Invoked by Test Kitchen to provide a sandbox environment
-	- Determined by application (cookbook) requirements
-	- Shipped with a cookbook
+#### Integration
+  - Usually maintained within a cookbook
+  - Invoked by Test Kitchen to provide a sandbox environment
+  - Determined by application (cookbook) requirements
+  - Shipped with a cookbook
 
-**Compliance**
-	- Tests collated in InSpec profiles
-	- Invoked by 'inspec' cli or from Chef Automate
-	- Generic rules defined by external security requirements
+#### Compliance
+  - Tests collated in InSpec profiles
+  - Invoked by 'inspec' cli or from Chef Automate
+  - Generic rules defined by external security requirements
 
 ### Anatomy of a Chef InSpec test
 
@@ -58,7 +58,7 @@ Introduction to Automated Testing
   end
 ```
 
-**Each control contains:**
+#### Each control contains:
   - a `describe` statement
   - a resource
   - an optional argument
@@ -66,18 +66,20 @@ Introduction to Automated Testing
   - a `do` ... `end` block
   - one or more tests
 
-**Each Test Contains:**
+#### Each Test Contains:
   - one or more `it` and/or `its` statement
   - an optional property
   - each with a condition statement
 
-**Each Condition Contains:**
+#### Each Condition Contains:
   - a condition
   - a matcher
 
 ### Chef InSpec CLI, Profiles and Compliance Scanning
 
 #### Chef InSpec as a Standalone Tool
+
+<<<TODO>>>
 
 #### Chef InSpec code is maintained in 'Profiles'
 
@@ -106,13 +108,15 @@ A profile is a standalone structure containing
 A profile contains one or more control files, each containing a number of tests
 
   - A `describe` block contains at least one test
+<<<TODO>>>
 
-**Each Control Contains:**
+#### Each Control Contains:
   - Some boilerplate information and a tilte
   - At least one `describe` block, but may contain as many as required
   - Extra metadata 
 
 Impact is a measure
+<<<TODO>>>
 
 ### Running Remote Scans
 
