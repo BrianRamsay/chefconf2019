@@ -3,9 +3,9 @@ Notes from ChefConf 2019
 
 ## Monday - InSpec Jumpstart Workshop
 
-  * [notes](inspec-jumpstart/inspec-jumpstart.md)
+  * [notes - INCOMPLETE](inspec-jumpstart/inspec-jumpstart.md)
   * [code](inspec-jumpstart/code/)
-  * [slides]()
+  * slides coming soon
 
 ## Tuesday
 
