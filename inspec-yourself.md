@@ -1,6 +1,9 @@
 InSpec Yourself Before You Wreck Yourself
 ===========================================
 
+**Lynn Frank**
+*@burtlo*
+
 ### Be a better maintainer
 
 Learning how a resource is constructed will assist you in verifying, troubleshooting, and authoring resources.

@@ -17,3 +17,4 @@ Notes from ChefConf 2019
 
   * [Keynotes](keynote2.md)
   * [Inspec Yourself Before You Wreck Yourself](inspec-yourself.md)
+  * [The Magic of Custom InSpec Resources](magic-custom-inspec.md)
