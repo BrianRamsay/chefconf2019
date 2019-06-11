@@ -74,16 +74,15 @@ Introduction to Automated Testing
 #### Each Condition Contains:
   - a condition
   - a matcher
+  - an expected result
+
+Each resource has its own specific matchers. e.g., exists, be\_readable for files, while packages have version, be\_installed, etc.
 
 ### Chef InSpec CLI, Profiles and Compliance Scanning
 
-#### Chef InSpec as a Standalone Tool
-
-<<<TODO>>>
-
 #### Chef InSpec code is maintained in 'Profiles'
 
-Chef InSpec organizes controls into versioned 'profiles'
+To use InSpec as a standalone tool, organize controls into versioned 'profiles'. These profiles are outside of any one cookbook.
 
 A profile is a standalone structure containing
   - control files
@@ -105,28 +104,34 @@ A profile is a standalone structure containing
   - libraries
   - optional files directory for addtional files that a profile can access
 
-A profile contains one or more control files, each containing a number of tests
+A profile contains one or more control files, each containing a number of tests.
 
-  - A `describe` block contains at least one test
-<<<TODO>>>
+  - A `control` block contains at least one describe block, but may contain as many as required.
+  - A `describe` block contains at least one test.
 
 #### Each Control Contains:
-  - Some boilerplate information and a tilte
-  - At least one `describe` block, but may contain as many as required
-  - Extra metadata 
+  - Some boilerplate information and a title.
+  - At least one `describe` block, but may contain as many as required.
+  - Extra metadata defining a unique ID, criticality, title & description, etc.
 
-Impact is a measure
-<<<TODO>>>
+
+Impact is a measure of the importance of the compliance results and is configurable for each control.
 
 ### Running Remote Scans
+
+The real power of InSpec is the ability to run it on remote targets. These targets do not need a Chef agent or Ruby installed. You just have to be able to access it via SSH.
+
+You can also directly test a docker container. i.e., `inspec exec test.rb -t docker://5cc8837bb6a8`
 
 ### Chef InSpec DSL: Deeper Dive
 
 #### Chef InSpec Shell
 
-Explore available chef and inspec resources with a REPL.
+Explore available chef and inspec resources with a REPL. You can interrogate your local chef infrastructure and view methods available for all inspec resources.
 
 ### Chef InSpec & Cloud Infrastructure
+
+InSpec has specific resources for public cloud platforms.
 
 ### Open Source Profiles, GitHub and Supermarket
 
@@ -144,8 +149,8 @@ Build confidence with auditors by showing the direct link between inspec control
 
 ### Chef InSpec and Chef Automate
 
-Chef Automate allows you to start compliance scans and facilitates remediation
+Chef Automate allows you to start compliance scans and facilitates remediation.
 
-Chef will be building remediation cookbooks for all Chef InSpec profiles on Chef Automate
+Chef will be building remediation cookbooks for all Chef InSpec profiles on Chef Automate.
 
 Chef 'Audit Cookbook' runs InSpec scans at the end of chef-client to report results to Chef Automate.
