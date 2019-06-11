@@ -5,7 +5,7 @@ Notes from ChefConf 2019
 
   * [notes - INCOMPLETE](inspec-jumpstart/inspec-jumpstart.md)
   * [code](inspec-jumpstart/code/)
-  * slides coming soon
+  * [slides](https://drive.google.com/file/d/1ucEKEfy90UtVBKyEjCep66JgJQNWTI7l/view)
 
 ## Tuesday
 
